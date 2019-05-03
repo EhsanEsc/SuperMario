@@ -1,0 +1,3 @@
+
+make clean
+read -p "..."
