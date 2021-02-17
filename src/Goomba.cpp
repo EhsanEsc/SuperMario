@@ -15,7 +15,7 @@ void Goomba::set_all(std::string address, Shape sh)
 {
   shape = sh;
 
-  texture.set_name("Goomba");
+  texture.set_name("goomba");
 
   texture.add_dir("origin", address);
   texture.set_dir("origin");

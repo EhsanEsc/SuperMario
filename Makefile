@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -std=c++11 -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer
+CFLAGS = -std=c++11 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer
 OBJ = main.o src/Game.o src/Manager.o src/Obstacles.o src/Mario.o src/Texture.o src/Shape.o src/Troopa.o src/Goomba.o \
 src/UI_box.o src/Collision.o src/Powerops.o src/Sound.o src/Projectile.o src/rsdl.o
 

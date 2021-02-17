@@ -18,7 +18,7 @@ void Troopa::set_all(std::string address, Shape sh)
 {
   shape = sh;
 
-  texture.set_name("Troopa");
+  texture.set_name("troopa");
 
   texture.add_dir("origin", address);
   texture.set_dir("origin");
